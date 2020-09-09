@@ -1,6 +1,7 @@
 body {
   font-family: "proxima-nova",sans-serif;
   font-size: 16px;
+  background-color:F8F8F8;
 }
 body a {
   color: inherit;
@@ -36,8 +37,7 @@ header:after, .login-form:after, footer:after {
   margin-top: 120px;
   width: 360px;
   height: auto;
-  background-color: black;
-  color: white;
+  color: black;
   border: 1px solid #161616;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
   position: absolute;
@@ -78,6 +78,7 @@ header span {
 .login-form input {
   font-size: 1.05em;
   font-weight: 300;
+  background-color: #F0F0F0;
   margin-top: 18px;
   padding: 10px 8px;
   width: 288px;
@@ -94,7 +95,7 @@ header span {
 
 footer {
   padding: 26px 28px 22px 28px;
-  font-size: 0.82em;
+  font-size: 1.50em;
 }
 footer .social-login i:first-child {
   margin-left: 4px;
@@ -117,11 +118,3 @@ body {
   background-size: cover;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.88);
-}
